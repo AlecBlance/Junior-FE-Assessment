@@ -15,7 +15,7 @@ const Navigation = () => {
           <div className="w-8 h-0.5 bg-white-red"></div>
           <div className="w-8 h-0.5 bg-white-red"></div>
         </div>
-        <div className="hidden md:w-4/6 lg:w-3/6 xl:w-5/12 md:flex text-white-red items-center font-semibold">
+        <div className="hidden md:w-4/6 lg:w-3/6 xl:w-5/12 2xl:w-4/12 md:flex text-white-red items-center font-semibold">
           <ul className="list-none flex w-full justify-between">
             <li>
               <a href="#home" className="text-palette-red">
@@ -23,22 +23,22 @@ const Navigation = () => {
               </a>
             </li>
             <li>
-              <a href="#home" className="hover:text-palette-red">
+              <a href="#products" className="hover:text-palette-red">
                 Product
               </a>
             </li>
             <li>
-              <a href="#home" className="hover:text-palette-red">
+              <a href="#about" className="hover:text-palette-red">
                 About
               </a>
             </li>
             <li>
-              <a href="#home" className="hover:text-palette-red">
+              <a href="#fun" className="hover:text-palette-red">
                 Fun Fact
               </a>
             </li>
             <li>
-              <a href="#home" className="hover:text-palette-red">
+              <a href="#contact" className="hover:text-palette-red">
                 Contact
               </a>
             </li>

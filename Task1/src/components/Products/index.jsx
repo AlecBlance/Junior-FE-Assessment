@@ -2,7 +2,7 @@ import Product from "./Product";
 
 const Products = () => {
   return (
-    <div className="py-8 px-6" id="products">
+    <div className="py-16 px-6" id="products">
       <h1 className="text-center text-2xl text-custom-black font-black">
         Choose your <span className="text-palette-red">Burger</span>
       </h1>

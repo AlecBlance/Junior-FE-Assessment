@@ -4,7 +4,7 @@ const About = () => {
   const [truncate, setTruncate] = useState(true);
 
   return (
-    <div className="py-8 px-6 bg-white">
+    <div className="py-16 px-6 bg-white">
       <h1 className="text-center text-2xl text-custom-black font-black mb-5">
         About <span className="text-palette-red">Us</span>
       </h1>
@@ -22,7 +22,7 @@ const About = () => {
         onClick={() => setTruncate(!truncate)}
         className={`${
           !truncate ? "hidden" : "block"
-        } bg-palette-red px-3 py-2 text-sm text-white-red rounded-3xl mt-5`}
+        } mt-7 bg-palette-red text-white-red px-4 py-3 rounded-3xl text-sm font-semibold`}
       >
         Read More
       </button>

@@ -9,7 +9,7 @@ const About = () => {
       className="relative py-16 px-6 lg:px-32 lg:py-32 xl:py-48 xl:px-60 2xl:px-96 bg-white"
     >
       <svg
-        className="w-6/12 absolute lg:top-[-15rem] lg:right-[-25rem] 2xl:top-[-30rem] 2xl:right-[-40rem]"
+        className="hidden lg:block w-6/12 absolute lg:top-[-15rem] lg:right-[-25rem] 2xl:top-[-30rem] 2xl:right-[-40rem]"
         viewBox="0 0 561 561"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +50,7 @@ const About = () => {
         Read More
       </button>
       <svg
-        className="w-2/6 absolute lg:bottom-[-10rem] lg:left-[-12rem] 2xl:bottom-[-20rem] 2xl:left-[-20rem] z-10"
+        className="hidden lg:block w-2/6 absolute lg:bottom-[-10rem] lg:left-[-12rem] 2xl:bottom-[-20rem] 2xl:left-[-20rem] z-10"
         viewBox="0 0 409 409"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

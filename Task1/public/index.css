@@ -1115,6 +1115,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:absolute {
+    position: absolute;
+  }
+
   .lg\:bottom-\[-10rem\] {
     bottom: -10rem;
   }
@@ -1129,6 +1133,10 @@ video {
 
   .lg\:top-\[-15rem\] {
     top: -15rem;
+  }
+
+  .lg\:block {
+    display: block;
   }
 
   .lg\:w-2\/3 {

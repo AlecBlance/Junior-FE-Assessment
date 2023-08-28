@@ -6,11 +6,15 @@ This is an assessment to measure my capability as a Front End Developer. This is
 
 has a set of instructions, and design to follow. I was given the creative freedom to showcase any product. It should also be responsive, and with good aesthetics.
 
+Live Preview: https://junior-fe-assessment-task1.vercel.app/
+
 ![Task 1](task1-preview.jpg)
 
 ## [Task 2](https://github.com/AlecBlance/Junior-FE-Assessment/tree/main/Task2)
 
 a To-Do list which has all the basic functions such as add, delete, complete.
+
+Live Preview: https://junior-fe-assessment-task2.vercel.app/
 
 ![Task 2](task2-preview.png)
 

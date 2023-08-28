@@ -7,10 +7,42 @@ const Navigation = () => {
     <div className="relative">
       <div className="flex justify-between items-center">
         <h1 className="font-black text-palette-red text-2xl">GripBites</h1>
-        <div className="space-y-1.5" onClick={() => setCollapse(!collapse)}>
+        <div
+          className="md:hidden space-y-1.5"
+          onClick={() => setCollapse(!collapse)}
+        >
           <div className="w-8 h-0.5 bg-white-red"></div>
           <div className="w-8 h-0.5 bg-white-red"></div>
           <div className="w-8 h-0.5 bg-white-red"></div>
+        </div>
+        <div className="hidden md:w-4/6 md:flex text-white-red items-center font-semibold">
+          <ul className="list-none flex w-full justify-between">
+            <li>
+              <a href="#home" className="text-palette-red">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#home" className="hover:text-palette-red">
+                Product
+              </a>
+            </li>
+            <li>
+              <a href="#home" className="hover:text-palette-red">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="#home" className="hover:text-palette-red">
+                Fun Fact
+              </a>
+            </li>
+            <li>
+              <a href="#home" className="hover:text-palette-red">
+                Contact
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
       {collapse && (

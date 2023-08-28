@@ -16,7 +16,7 @@ const Message = () => {
         </p>
       </div>
       <div>
-        <button className="bg-palette-red text-white-red px-4 py-3 rounded-3xl text-sm font-semibold">
+        <button className="transition duration-300 ease-in-out hover:scale-110 bg-palette-red text-white-red px-4 py-3 rounded-3xl text-sm font-semibold">
           Order Now
         </button>
       </div>

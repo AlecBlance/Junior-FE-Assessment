@@ -9,7 +9,7 @@ const Cta = () => {
           A hand can hold <span className="text-palette-red">5 burgers</span>.
           Don’t believe it? <span className="text-palette-red">Just try</span>!
         </h1>
-        <button className="mt-7 bg-palette-red text-white-red px-4 py-3 rounded-3xl text-sm font-semibold">
+        <button className="mt-7 hover:scale-110 transition duration-300 ease-in-out bg-palette-red text-white-red px-4 py-3 rounded-3xl text-sm font-semibold">
           Order Now
         </button>
       </div>

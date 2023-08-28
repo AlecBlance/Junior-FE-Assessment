@@ -3,8 +3,8 @@ const Product = ({ name, price, image, first }) => {
   return (
     <div
       className={`${
-        first && "md:shadow-yellow-300"
-      } flex shadow-lg rounded-lg items-center py-3 mt-5 md:first:row-span-2 md:flex-col md:hover:shadow-2xl md:cursor-pointer `}
+        first && "md:shadow-yellow-300 md:hover:shadow-yellow-400"
+      } transition duration-300 ease-in-out hover:scale-110 flex shadow-lg rounded-lg items-center py-3 mt-5 md:first:row-span-2 md:flex-col md:hover:shadow-2xl md:hover md:cursor-pointer `}
     >
       <img
         src={image}

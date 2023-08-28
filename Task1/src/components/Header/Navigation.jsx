@@ -68,15 +68,15 @@ const Navigation = () => {
                 Products
               </li>
             </a>
-            <a href="#">
+            <a href="#about">
               <li className="p-3 border-b-2 border-custom-black/10">About</li>
             </a>
-            <a href="#">
+            <a href="#fun">
               <li className="p-3 border-b-2 border-custom-black/10">
                 Fun Fact
               </li>
             </a>
-            <a href="#">
+            <a href="#contact">
               <li className="p-3 border-b-2 border-custom-black/10">Contact</li>
             </a>
           </ul>

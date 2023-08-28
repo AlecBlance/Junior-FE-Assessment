@@ -1,4 +1,14 @@
+import About from "./components/About";
+import Header from "./components/Header";
+import Products from "./components/Products";
+
 const App = () => {
-  return <div className="text-red-700">App</div>;
+  return (
+    <>
+      <Header />
+      <Products />
+      <About />
+    </>
+  );
 };
 export default App;

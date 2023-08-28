@@ -11,5 +11,5 @@ _src/_ - where all the UI components or react jsx codes reside
   - About
   - Call To Action
   - Contact
-- _App.jsx_ and _main.jsx_ bootstraps all the componenets to create the whole page
+- _App.jsx_ and _main.jsx_ bootstraps all the components to create the whole page
 - Files outside of the folders are all configurations of the libraries and server

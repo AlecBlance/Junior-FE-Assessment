@@ -15,7 +15,7 @@ const Navigation = () => {
           <div className="w-8 h-0.5 bg-white-red"></div>
           <div className="w-8 h-0.5 bg-white-red"></div>
         </div>
-        <div className="hidden md:w-4/6 lg:w-3/6 md:flex text-white-red items-center font-semibold">
+        <div className="hidden md:w-4/6 lg:w-3/6 xl:w-5/12 md:flex text-white-red items-center font-semibold">
           <ul className="list-none flex w-full justify-between">
             <li>
               <a href="#home" className="text-palette-red">

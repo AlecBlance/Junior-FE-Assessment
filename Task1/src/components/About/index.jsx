@@ -5,7 +5,7 @@ const About = () => {
 
   return (
     <div className="py-16 px-6 bg-white">
-      <h1 className="text-center text-2xl text-custom-black font-black mb-5">
+      <h1 className="text-center text-2xl text-custom-black font-black mb-5 md:text-4xl md:mb-10">
         About <span className="text-palette-red">Us</span>
       </h1>
       <p className={`${truncate ? "line-clamp-3" : "line-clamp-none"} `}>

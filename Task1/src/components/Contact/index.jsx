@@ -1,11 +1,11 @@
 const Contact = () => {
   return (
-    <div className="py-16 px-6">
-      <h1 className="text-center text-2xl text-custom-black font-black mb-7">
+    <div className="py-16 px-6 md:py-8">
+      <h1 className="text-center text-2xl text-custom-black font-black mb-7 md:text-4xl">
         Contact <span className="text-palette-red">Us</span>
       </h1>
-      <form>
-        <div>
+      <form className="md:flex md:items-center md:flex-col">
+        <div className="md:w-2/3">
           <label className="relative">
             <svg
               className="absolute w-4 h-4 top-1/2 transform -translate-y-1/2 left-3"
@@ -29,7 +29,7 @@ const Contact = () => {
             />
           </label>
         </div>
-        <div>
+        <div className="md:w-2/3">
           <label className="relative">
             <svg
               className="absolute w-4 h-4 top-1/2 transform -translate-y-1/2 left-3"
@@ -55,10 +55,10 @@ const Contact = () => {
           id="message"
           cols="30"
           rows="10"
-          className="bg-slate-200 w-full px-9 rounded-xl mt-5 py-5"
+          className="bg-slate-200 w-full px-9 rounded-xl mt-5 py-5 md:w-2/3"
           placeholder="Message"
         ></textarea>
-        <button className="w-full bg-palette-red px-3 py-3 text-sm text-white-red rounded-3xl mt-5">
+        <button className="w-full md:w-2/3 bg-palette-red px-3 py-3 text-sm text-white-red rounded-3xl mt-5">
           Submit
         </button>
       </form>

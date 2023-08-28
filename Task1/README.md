@@ -1,8 +1,15 @@
-# React + Vite
+# Task 1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Parts**
+_public/_ - all the necessary assets for the page such as images and stylesheets
+_src/_ - where all the UI components or react jsx codes reside
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- _assets/_ - tailwind directives can be found here
+- _componenets_ - this holds the UI components needed for the sections of the page
+  - Header
+  - Products
+  - About
+  - Call To Action
+  - Contact
+- _App.jsx_ and _main.jsx_ bootstraps all the componenets to create the whole page
+- Files outside of the folders are all configurations of the libraries and server

@@ -10,6 +10,7 @@ export default {
       },
       backgroundImage: {
         "custom-header-image": 'url("/img/header.jpg")',
+        "custom-header-image-2": 'url("/img/secondHeader.jpg")',
       },
     },
   },

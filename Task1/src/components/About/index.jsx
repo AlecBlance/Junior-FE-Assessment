@@ -4,7 +4,10 @@ const About = () => {
   const [truncate, setTruncate] = useState(true);
 
   return (
-    <div className="py-16 px-6 lg:px-32 lg:py-32 xl:py-48 xl:px-60 bg-white">
+    <div
+      id="about"
+      className="py-16 px-6 lg:px-32 lg:py-32 xl:py-48 xl:px-60 2xl:px-96 bg-white"
+    >
       <h1 className="text-center text-2xl text-custom-black font-black mb-5 md:text-4xl md:mb-10">
         About <span className="text-palette-red">Us</span>
       </h1>
@@ -13,14 +16,18 @@ const About = () => {
           truncate ? "line-clamp-3" : "line-clamp-none"
         } lg:leading-8`}
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-        vulputate pretium augue. In interdum eleifend maximus. In hac habitasse
-        platea dictumst. Nulla facilisis hendrerit metus at imperdiet. Nam
-        eleifend nisl quis arcu hendrerit imperdiet. Nunc luctus enim non magna
-        ultrices finibus. Aenean faucibus posuere metus, sit amet tincidunt
-        sapien lacinia a. Pellentesque vitae venenatis ante. Proin porta tellus
-        at dui consectetur vulputate. Pellentesque imperdiet sapien et purus
-        porta vehicula. Integer pharetra mi in volutpat vehicula.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et turpis
+        massa. Sed massa dui, imperdiet ac malesuada sit amet, suscipit sed
+        neque. Mauris imperdiet urna hendrerit dui lobortis sodales. Mauris
+        facilisis nulla sit amet felis malesuada viverra. Sed quis molestie
+        nulla, ac vulputate leo. Nullam posuere dui vitae venenatis finibus.
+        Praesent sodales sagittis varius. Aliquam sed enim neque. Aliquam
+        aliquet velit eget massa tristique, vel molestie nibh fermentum. Nulla
+        eget mi efficitur, feugiat est eget, eleifend ipsum. In eget erat non
+        eros dapibus rutrum ac vel turpis. In hac habitasse platea dictumst.
+        Aliquam non laoreet neque, a maximus est. Donec nec placerat ex. Vivamus
+        pellentesque, justo a bibendum euismod, enim lacus vulputate orci, sit
+        amet rhoncus elit justo sed quam.
       </p>
       <button
         onClick={() => setTruncate(!truncate)}

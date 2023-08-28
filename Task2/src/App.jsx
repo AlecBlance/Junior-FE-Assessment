@@ -20,7 +20,7 @@ function App() {
   }, [notif]);
 
   return (
-    <div className="relative bg-white px-8 py-5 rounded-2xl shadow-lg h-4/6 flex flex-col">
+    <div className="relative bg-white px-8 py-5 rounded-2xl shadow-lg h-4/6 flex flex-col lg:w-2/4 xl:w-2/5">
       <Notification notif={notif} />
       <h1 className="text-lg font-black text-blue-400 text-center mb-4">
         TO-DO

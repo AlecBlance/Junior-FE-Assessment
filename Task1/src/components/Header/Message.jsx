@@ -2,13 +2,15 @@ const Message = () => {
   return (
     <div className="grow flex flex-col items-center justify-center md:items-start">
       <div className="text-center md:text-left">
-        <h1 className="font-black text-white-red text-6xl">Get a Grip</h1>
-        <h1 className="font-black text-white-red text-6xl">
+        <h1 className="font-black text-white-red text-6xl lg:text-7xl">
+          Get a Grip
+        </h1>
+        <h1 className="font-black text-white-red text-6xl lg:text-7xl">
           on <span className="text-palette-red">Flavor</span>
         </h1>
       </div>
       <div className="text-center my-12 md:w-1/2 md:text-left">
-        <p className="text-white-red">
+        <p className="text-white-red lg:text-lg">
           A handful of delicious burgers within your reach. Have a firm grip at
           this unforgettable taste.
         </p>

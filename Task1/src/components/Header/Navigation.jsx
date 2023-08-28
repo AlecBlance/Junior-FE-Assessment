@@ -23,22 +23,34 @@ const Navigation = () => {
               </a>
             </li>
             <li>
-              <a href="#products" className="hover:text-palette-red">
+              <a
+                href="#products"
+                className="hover:text-palette-red transition duration-300 ease-in-out"
+              >
                 Product
               </a>
             </li>
             <li>
-              <a href="#about" className="hover:text-palette-red">
+              <a
+                href="#about"
+                className="hover:text-palette-red transition duration-300 ease-in-out"
+              >
                 About
               </a>
             </li>
             <li>
-              <a href="#fun" className="hover:text-palette-red">
+              <a
+                href="#fun"
+                className="hover:text-palette-red transition duration-300 ease-in-out"
+              >
                 Fun Fact
               </a>
             </li>
             <li>
-              <a href="#contact" className="hover:text-palette-red">
+              <a
+                href="#contact"
+                className="hover:text-palette-red transition duration-300 ease-in-out"
+              >
                 Contact
               </a>
             </li>

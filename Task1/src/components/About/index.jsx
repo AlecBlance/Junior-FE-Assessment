@@ -4,7 +4,7 @@ const About = () => {
   const [truncate, setTruncate] = useState(true);
 
   return (
-    <div className="py-16 px-6 lg:px-32 lg:py-32 bg-white">
+    <div className="py-16 px-6 lg:px-32 lg:py-32 xl:py-48 xl:px-60 bg-white">
       <h1 className="text-center text-2xl text-custom-black font-black mb-5 md:text-4xl md:mb-10">
         About <span className="text-palette-red">Us</span>
       </h1>
